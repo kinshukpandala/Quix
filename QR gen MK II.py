@@ -1,3 +1,8 @@
+# In this code we have enhanced the code by 
+# allowing the user to save what ever he wants for his PNG file 
+# also to addition to that based on the data input the 
+# code will automatically change its size mentioned in the line 25 of the code 
+
 import qrcode
 from PIL import Image
 
@@ -5,7 +10,7 @@ from PIL import Image
 file_name = input("Enter the name to save the QR code (without extension): ") + ".png"
 
 # Data to encode in the QR code
-data = "https://www.linkedin.com/in/kinshuk-pandala/"
+data = "Enter the link you want to generate the QR for"
 
 # Create a QR Code instance
 qr = qrcode.QRCode(

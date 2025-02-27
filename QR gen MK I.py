@@ -1,7 +1,7 @@
 import qrcode
 
 # Data to encode in the QR code
-data = "https://docs.google.com/forms/d/e/1FAIpQLSdMuzYq41YsyQzQ6HgAsBl9gI-gS3FpKsfzXZJWksMieb1BEQ/viewform"
+data = "Enter the URL u want to generate the QR for"
 
 # Create a QR Code instance
 qr = qrcode.QRCode(

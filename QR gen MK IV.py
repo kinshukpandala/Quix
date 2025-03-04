@@ -35,3 +35,8 @@ img = qr.make_image(fill='black', back_color='white')
 img.save(file_path)
 
 print(f"QR code generated and saved as '{file_path}'")
+
+
+
+#this code creates a new folder called QRCG_Project/QR_code and stores the QR in that
+# So in the next version the goal is to make sure that it stores in the same folder it is generating in 

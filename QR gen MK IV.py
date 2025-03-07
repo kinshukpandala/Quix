@@ -34,6 +34,8 @@ img = qr.make_image(fill='black', back_color='white')
 # Save the final QR code image in the specified folder
 img.save(file_path)
 
+#incase of no existing file_path the file will create its own file_path to store the image within a folder
+
 print(f"QR code generated and saved as '{file_path}'")
 
 
